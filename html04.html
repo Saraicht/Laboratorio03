@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mayorNum(){
+            var mun1 = parseInt(document.getElemntById("num1").value);
+            var mun2 = parseInt(document.getElemntById("num2").value);
+            if (num && num2){
+                if(num >= num2){
+                    if (num == num2){
+                        alert("Los numeros son  iguales")
+                    }else{
+                        alert("El num1 es mayor")
+                    }
+                }else{
+                        alert("l num2 es mayor")
+                    }
+                }else{
+                        alert("Uno de los numeros no se relleno")
+                    }
+                }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="num1"/>
+        <input type="text" id="num2">
+        <button type="button" onclick="mayorNum()">¿quien es el mayor?</button>
+    </form>
+</body>
+</html>
+
